@@ -10,4 +10,37 @@ h1 {
   color: #333;
 }
 
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 10px;
+}
+
+li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  width: 300px; /* Fijamos un ancho uniforme */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+li img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+p {
+  margin: 3px 0;
+  font-size: 15px;
+  line-height: 1.2;
+}
 
